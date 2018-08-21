@@ -11,10 +11,10 @@ object TestApp extends App {
   println(aceOfClubs)
   println(kingOfClubs)
   println(kingOfDiamonds)
-  println(aceOfClubs >= kingOfClubs)
-  println(aceOfClubs <= kingOfClubs)
-  println(aceOfClubs >= kingOfDiamonds)
-  println(aceOfClubs <= kingOfDiamonds)
+//  println(aceOfClubs >= kingOfClubs)
+//  println(aceOfClubs <= kingOfClubs)
+//  println(aceOfClubs >= kingOfDiamonds)
+//  println(aceOfClubs <= kingOfDiamonds)
   val mapper = new ObjectMapper() with ScalaObjectMapper
 
   import com.fasterxml.jackson.databind.module.SimpleModule
